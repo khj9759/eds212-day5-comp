@@ -54,6 +54,11 @@ mean_height <- mean(starwars$height, na.rm = TRUE)
 mean_height
 sd_height <- sd(starwars$height, na.rm = TRUE)
 sd_height
-
+class(sd_height)
 # na.rm = FALSE: not to remove NA value / TRUE: remove NA value
 ```
+
+# In-line reporting using code outputs
+
+The mean height of star wars characters is `r mean_height` with a standard deviation of `r sd_height` cm.
+
